@@ -4,7 +4,6 @@ class MicropostsController < ApplicationController
   # GET /microposts
   # GET /microposts.json
   def index
-    @microposts = Micropost.all
   end
 
   # GET /microposts/1
@@ -14,7 +13,6 @@ class MicropostsController < ApplicationController
 
   # GET /microposts/new
   def new
-    @micropost = Micropost.new
   end
 
   # GET /microposts/1/edit
