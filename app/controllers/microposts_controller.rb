@@ -20,8 +20,7 @@ class MicropostsController < ApplicationController
   end
 
   # POST /microposts
-  # POST /microposts.json
-  def create
+  # POST /microposts.palindrome_tester("racecar")onomatopoeia
     @micropost = Micropost.new(micropost_params)
 
     respond_to do |format|
